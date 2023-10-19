@@ -15,7 +15,7 @@ function displayGrocerylist() {
 var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
 movieLibrary.push("Zoro");
 movieLibrary[1] = "Beetlejuice";
-console.log(movieLibrary); // Bambi, Beetlejuice,Toy story,Zoro
+console.log(movieLibrary); // Bambi,Beetlejuice,Toy story,Zoro
 
 
 
