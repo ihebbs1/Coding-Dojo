@@ -1,0 +1,26 @@
+.flag {
+    height: 300px;
+    width: 450px;
+    position: relative;
+    background: black;
+  }
+  
+  .flag:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 33.33%;
+    width: 33.33%;
+    height: 100%;
+    background: yellow;
+  }
+  
+  .flag:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 66.66%;
+    width: 33.33%;
+    height: 100%;
+    background: red;
+  }
