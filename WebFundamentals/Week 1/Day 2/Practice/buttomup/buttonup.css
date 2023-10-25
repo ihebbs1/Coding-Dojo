@@ -1,21 +1,31 @@
 .x {
-    background-color: rgb(234, 241, 241);
-    color: rgb(76, 170, 170);
-    border:1px solid;
-    border-radius: 30px;
- 
- 
- }
- .y {
-    background-color: rgb(171, 238, 238);
-    color: rgb(231, 242, 242);
-    border:1px solid;
-    border-radius: 50px;
- 
- 
- }
- .z {
-    background-color: rgb(46, 19, 219);
-    color: aliceblue;
-    box-shadow: 3px 3px red, -1em 0 .4em olive;
- }
+   background-color: white;
+   color: rgb(76, 170, 170);
+   border: 2px solid;
+   border-radius: 50px;
+   text-align: center;
+   width: 100px;
+
+
+}
+
+.y {
+   background-color: rgb(171, 238, 238);
+   color: rgb(231, 242, 242);
+   border: 2px solid;
+   border-radius: 50%;
+   width : 30px;
+   height : 30px;
+
+}
+
+.z {
+   background-color:blue;
+   color: aliceblue;
+   border-color: black;
+   border: 4px;
+   box-shadow: 5px 2px 2px black;
+   height: 40px;
+   width: 200px;
+   
+}
