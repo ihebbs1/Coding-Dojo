@@ -1,0 +1,8 @@
+.btn{
+    background-color: aqua;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+}
