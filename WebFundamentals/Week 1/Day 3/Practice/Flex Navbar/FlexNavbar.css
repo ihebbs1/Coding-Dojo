@@ -1,8 +1,39 @@
-.btn{
-    background-color: aqua;
+body{
+    font-family: 'Roboto', sans-serif;
 }
 .nav{
-    background-color: black;
-    color: white;
     display: flex;
+    background-color: rgba(59, 23, 68, 0.914);
+    justify-content: space-between;
+    align-items: center;
+    
+
 }
+.nav-links{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 10px;
+    color: white;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-title{
+    margin-left: 10px;
+    color: white;
+}
+.btn{
+    background-color: aquamarine;
+    color: white;
+    width: 120%;
+    height: 150%;
+    box-shadow: 5px 5px 2px 1px black;
+}
+.active{
+    font-weight: bold;
+}
+
