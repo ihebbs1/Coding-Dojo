@@ -1,0 +1,46 @@
+.container{
+    background-color: beige;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.profile-pic {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    
+}
+.card-head{
+    background-color: rgb(82, 193, 221);
+    height: 120px;
+}
+.name {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.img{
+    height: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: rgb(54, 83, 209);
+    margin-left: 20px;
+}
+
+.p{
+    margin-left: 25px;
+    justify-content: space-evenly;
+}
