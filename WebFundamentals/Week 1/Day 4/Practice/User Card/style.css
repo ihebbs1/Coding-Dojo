@@ -1,4 +1,4 @@
-.container{
+.container {
     background-color: beige;
     width: 80%;
     margin: 0 auto;
@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     height: 450px;
+    border: 2px solid black
 }
 
 .profile-pic {
@@ -14,25 +15,30 @@
     position: relative;
     top: -40px;
     left: 50px;
-    
+
 }
-.card-head{
+
+.card-head {
     background-color: rgb(82, 193, 221);
     height: 120px;
 }
+
 .name {
     margin-left: 50px;
     margin-top: -20px;
 }
-.img{
+
+.img {
     height: 20px;
 }
-.location{
+
+.location {
     display: flex;
     align-items: center;
     margin-left: 50px;
 }
-.edit{
+
+.edit {
     display: flex;
     align-items: center;
     text-decoration: underline;
@@ -40,7 +46,7 @@
     margin-left: 20px;
 }
 
-.p{
+.p {
     margin-left: 25px;
     justify-content: space-evenly;
 }
