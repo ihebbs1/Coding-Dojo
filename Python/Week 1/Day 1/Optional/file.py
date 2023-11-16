@@ -7,41 +7,42 @@ person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': Fals
 fruit = ('blueberry', 'strawberry', 'banana') #tuples
 print(type(fruit)) #tuples
 print(pizza_toppings[1]) #sausage
-pizza_toppings.append('Mushrooms')
-print(person['name'])
+pizza_toppings.append('Mushrooms')#['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives', 'Mushrooms']
+print(person['name'])#john
 person['name'] = 'George'
 person['eye_color'] = 'blue'
-print(fruit[2])
+print(fruit[2])#banana
 
 if num1 > 45:
-    print("It's greater")
+    print("It's greater")#false
 else:
-    print("It's lower")
+    print("It's lower")#true
 
 if len(string) < 5:
-    print("It's a short word!")
+    print("It's a short word!")#false
 elif len(string) > 15:
-    print("It's a long word!")
+    print("It's a long word!")#false
 else:
-    print("Just right!")
+    print("Just right!")#true
 
 for x in range(5):
-    print(x)
+    print(x)#0,1,2,3,4
 for x in range(2,5):
-    print(x)
+    print(x)#2,3,4
 for x in range(2,10,3):
-    print(x)
+    print(x)#2,5,8
 x = 0
-while(x < 5):
-    print(x)
-    x += 1
+np=200
+while(x < np):
+    print(x)#0,1,2,3,4
+    x += 1#1,2,3
 
-pizza_toppings.pop()
-pizza_toppings.pop(1)
+pizza_toppings.pop()#['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese']
+pizza_toppings.pop(1)#['Pepperoni', 'Jalepenos', 'Cheese', 'Olives']
 
-print(person)
-person.pop('eye_color')
-print(person)
+print(person)#{'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
+person.pop('eye_color')#{'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
+print(person)#{'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
 
 for topping in pizza_toppings:
     if topping == 'Pepperoni':
@@ -82,3 +83,4 @@ Bonus section
 #   print(boolean)
 # fruit.append('raspberry')
 # fruit.pop(1)
+
