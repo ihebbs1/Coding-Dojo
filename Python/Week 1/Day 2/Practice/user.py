@@ -16,13 +16,20 @@ class character:
         print(self.gold_card_points)
     
     def enroll(self):
-        self.is_rewards_member=True
-        self.gold_card_points=200
+        if self.is_rewards_member==True : 
+            print('User already a member')
+            return False
+        else:
+            self.is_rewards_member=True
+            self.gold_card_points=200
+        
+        
 
 
     def spend(self,amount):
-        self.gold_card_points=self.gold_card_points-amount
-
+        if self.gold_card_points > amount:
+            self.gold_card_points=self.gold_card_points-amount
+        
 
 sadik=character("sadik","zrelli","zadkoa@izad.com",21)
 iheb=character("iheb","bs","a@izad.com",28)
@@ -31,6 +38,9 @@ sadik.display_info()
 #iheb.display_info()
 
 sadik.enroll()
-sadik.spend(69)
+sadik.spend(1000)
+sadik.enroll()
+sadik.display_info()
+
 print(sadik.is_rewards_member)
 print(iheb.is_rewards_member)
