@@ -5,7 +5,7 @@ class BankAccount:
     def __init__(self, int_rate, balance): 
         self.int_rate=int_rate
         self.balance=balance
-               # your code here! (remember, instance attributes go here)
+        # your code here! (remember, instance attributes go here)
         # don't worry about user info here; we'll involve the User class soon
     def deposit(self, amount):
         self.balance+=amount
@@ -27,15 +27,15 @@ class BankAccount:
         # your code here
         return self 
     # class method to change the name of the bank
-    @classmethod
-    def change_bank_name(cls,name):
-        cls.bank_name = name
-        print(cls)
+    # @classmethod
+    # def change_bank_name(cls,name):
+    #     cls.bank_name = name
+    #     print(cls)
     
 
-my_new_bank = BankAccount.change_bank_name("Amen Bank")
+# my_new_bank = BankAccount.change_bank_name("Amen Bank")
 # my_new_bank = BankAccount.bank_name()
-print(my_new_bank)
+# print(my_new_bank)
 nawfel=BankAccount(2,1000)
 iheb=BankAccount(1,1500)
 
