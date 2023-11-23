@@ -8,7 +8,7 @@ for i in range(5, 1000):
     if i % 5 == 0:
         print(i)
 
-# counting the dojo
+# # counting the dojo
 
 for i in range(1, 101):
     if i % 10 == 0:
@@ -18,21 +18,21 @@ for i in range(1, 101):
     else:
         print(i)
 
-#whoa. That Sucker's Huge
+# #whoa. That Sucker's Huge
 
 sum_of_odd_numbers = 0
 for number in range(0, 500001):
     if number%2==1:
         sum_of_odd_numbers+=number
-        print(sum_of_odd_numbers)
+print(sum_of_odd_numbers)
 
-#Countdown by Fours
+# #Countdown by Fours
 
 starting_number = 2018
 for number in range(starting_number, 0, -4):
     print(number)
 
-#flexible counter
+# #flexible counter
 
 lowNum = 5
 highNum = 20

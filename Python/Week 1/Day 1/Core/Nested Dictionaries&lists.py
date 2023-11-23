@@ -8,7 +8,9 @@ sports_directory = {
     'soccer' : ['Messi', 'Ronaldo', 'Rooney']
 }
 z = [ {'x': 10, 'y': 20} ]
-x[1][0]=15 #ex1
+
+#ex1
+x[1][0]=15 
 
 for student in students:
     if student['last_name'] == 'Jordan':
